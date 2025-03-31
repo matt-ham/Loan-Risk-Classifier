@@ -1,0 +1,77 @@
+=== Exploratory Data Analysis Summary ===
+
+1. Dataset Size:
+   - Rows: 252000
+   - Columns: 13
+
+2. Class Balance:
+   - Risk 0: 87.70%
+   - Risk 1: 12.30%
+
+3. Numerical Features:
+
+Income:
+   - Mean: 4997116.67
+   - Median: 5000694.50
+   - Std: 2878311.01
+   - Skewness: 0.01
+
+Age:
+   - Mean: 49.95
+   - Median: 50.00
+   - Std: 17.06
+   - Skewness: -0.01
+
+Experience:
+   - Mean: 10.08
+   - Median: 10.00
+   - Std: 6.00
+   - Skewness: -0.01
+
+CURRENT_JOB_YRS:
+   - Mean: 6.33
+   - Median: 6.00
+   - Std: 3.65
+   - Skewness: 0.27
+
+CURRENT_HOUSE_YRS:
+   - Mean: 12.00
+   - Median: 12.00
+   - Std: 1.40
+   - Skewness: 0.01
+
+4. Categorical Features:
+
+   Married/Single:
+   - single: 89.79%
+   - married: 10.21%
+
+   Car_Ownership:
+   - no: 69.84%
+   - yes: 30.16%
+
+   House_Ownership:
+   - rented: 92.02%
+   - owned: 5.13%
+   - norent_noown: 2.85%
+
+5. Strong Correlations (>0.5):
+   - Experience vs CURRENT_JOB_YRS: 0.65
+
+6. Data Quality Summary:
+   Missing Values Analysis:
+
+7. Categorical Variables Summary:
+
+   Married/Single:
+   - single: 89.79%
+   - married: 10.21%
+
+   Car_Ownership:
+   - no: 69.84%
+   - yes: 30.16%
+
+   House_Ownership:
+   - rented: 92.02%
+   - owned: 5.13%
+   - norent_noown: 2.85%
